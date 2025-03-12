@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Carter Ung"
 title_separator          : "-"
 name                     : &name "Carter Ung"
-description              : &description "Undergraduate Student in Computer Science and Biomedical Engineering at University of Houston"
+description              : &description "Engineering at Microsoft AI, Vision & Robotics at University of Washington"
 url                      : https://carteruh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/carteruh"
@@ -23,18 +23,18 @@ github: [metadata]
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "carter_profile.png"
+  avatar           : "carter_profile.jpeg"
   name             : "Carter Ung"
   pronouns         : "He/Him"  
-  bio              : "Vision & Robotics @ University of Washington"
-  location         : "Houston, TX"
-  employer         : "University of Houston"
+  bio              : "Engineering at Microsoft AI, Vision & Robotics at University of Washington"
+  location         : "Seattle, WA"
+  employer         : "Microsoft"
   uri              : # URL
   email            : "carterung@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # URL
+  googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=OgTLhFYAAAAJ"
   impactstory      : # URL
   orcid            : # URL
   semantic         : # URL
@@ -92,7 +92,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
