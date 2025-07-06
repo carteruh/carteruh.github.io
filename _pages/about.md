@@ -27,7 +27,7 @@ I studied **Computer Science and Biomedical Engineering** focusing on **Machine 
 
 For work experience, I have spent my past three summers interning at **Microsoft, Amazon Web Services, and Northrop Grumman** where I focused on engineering machine learning systems and applying models for practical enterprise applications.
 
-May you have any questions or interest in collaboration please reach out to me at **carterung AT gmail.com**.
+May you have any questions or interest in collaboration please reach out to me at **carterung [at] gmail [dot] com**.
 
 ## News
 **July 2025** Introducing my 2nd-author work **RoboEval** -- a structured evaluation framework for bimanual robot manipulation!
