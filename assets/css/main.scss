@@ -40,6 +40,100 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/*══════════  Publication cards  ════════════════════════════════════*/
+/* Root layout for each publication row */
+.paper-grid {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.paper-row {
+  vertical-align: top;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.paper-grid, .paper-grid * { border: none !important; }
+
+/* yellow highlight for featured papers */
+.highlight         { background:#ffffd0; }
+
+/* optional: subtle shadow to make rows pop against a white background */
+.paper-row         { box-shadow:0 1px 4px rgba(0,0,0,0); border-radius:8px; }
+
+/* Optional yellow highlight */
+.paper-row.highlight {
+  background-color: #ffffd0;
+  border-radius: 4px;
+}
+
+/* Left thumbnail */
+.paper-thumb {
+  width: 220px;
+  padding: 10px 14px 10px 0;
+}
+
+.paper-box-image {
+  position: relative;
+}
+
+.paper-box-image .badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  background: #0077b6;
+  color: white;
+  border-radius: 3px;
+}
+
+.paper-box-image img,
+.paper-box-image video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Right content */
+.paper-text {
+  padding: 10px 10px 10px 0;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.paper-text a.papertitle {
+  font-weight: 600;
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.paper-text em {
+  font-size: 0.85rem;
+  font-style: italic;
+  display: inline-block;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+.paper-text p {
+  margin: 4px 0 0 0;
+  line-height: 1.35;
+}
+
+.papertitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #005a94;
+  line-height: 1.5;
+}
+
+
 .paper-box {
     display: flex;
     justify-content: left;
@@ -107,3 +201,4 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+

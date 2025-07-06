@@ -1,0 +1,40 @@
+- id: roboeval25
+  title: "RoboEval: Where Robotic Manipulation Meets Structured and Scalable Evaluation"
+  authors: "Yi Ru Wang, **Carter Ung**, Grant Tannert, Jiafei Duan, Josephine Li, Amy Le, Rishabh Oswal, Markus Grotz, Wilbert Pumacay, Yuquan Deng, Ranjay Krishna, Dieter Fox, Siddhartha Srinivasa"
+  venue: "arXiv 2025 (Under Review)"
+  badge: ""
+  highlight: true            # <- makes the row yellow
+  thumb: "/images/roboeval.gif"    # the file you’ll create below
+  links:
+    project: "https://robo-eval.github.io"
+    paper:   "https://arxiv.org/pdf/2507.00435"    # replace with real URL
+    code:    "https://github.com/Robo-Eval/RoboEval"
+  teaser: |
+    RoboEval introduces a unified evaluation suite covering 18 bimanual manipulation
+    tasks with fine-grained metrics so researchers can compare models beyond binary
+    success/failure.
+
+
+# ---  VISAPP 2025  ----------------------------------------------------------
+- id: visapp25_pose
+  title: "Minimizing Number of Poses for Pose-Invariant Face Recognition"
+  authors: "**Carter Ung**, Pranav Mantini, Shishir Shah"
+  venue: "International Conference on Computer Vision Theory and Applications (VISAPP) 2025"
+  badge: ""
+  thumb: "/images/framework.png"
+  links:
+    paper:  "https://www.scitepress.org/Papers/2025/131864/131864.pdf"
+  teaser: |
+    We study how many viewpoint images are truly needed for robust, pose-invariant face recognition and show that a compact pose set dramatically reduces data-collection overhead.
+
+# ---  Undergraduate thesis  -------------------------------------------------
+- id: ug_thesis_pose
+  title: "Minimizing the Number of Poses for Pose-Invariant Face Recognition"
+  authors: "**Carter Ung**"
+  venue: "Undergraduate Dissertation, University of Houston 2024"
+  badge: ""
+  thumb: "/images/demo.png"
+  links:
+    paper: "https://drive.google.com/file/d/15c0iuTD1R5b-SffWyo0NI8r7wuYRyTTF/view?usp=sharing"
+  teaser: |
+    My honors thesis extends the VISAPP study and details the full experimental pipeline for low-redundancy face-data acquisition.
