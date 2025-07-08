@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome!"
+title: "Hello!"
 author_profile: true
 redirect_from: 
   - /about/
@@ -19,13 +19,13 @@ Welcome to my homepage! Here are some quick facts about me:
 🦾 I am very passionate about leveraging AI and Computer Vision to applications in robotics, accessibility, and health.
 
 ## Overview
-I am a Vietnamese-American born and raised in Houston, TX. I am currently at **Microsoft** working on enhancing **OneNote** for security and Copilot Notebook integration. 
+I am a Vietnamese-American born and raised in Houston, TX. I moved to Seattle after graduation to conduct my predoctoral research as a young research investigator at the **University of Washington** in the **Robotics and State Estimation Lab** and **Personal Robotics Lab** advised by **Dieter Fox** (NVIDIA) and **Siddhartha Srinivasa** (UW). My research actively investigates **robot learning** from the perspective of scaling simulation learning systems for policy learning and motion planning data generation and transferred to real-world robotic manipulation tasks.
 
-I also am a research intern at the **University of Washington** in the **Robotics and State Estimation Lab** and **Personal Robotics Lab** advised by **Siddhartha Srinivasa** (UW) and **Dieter Fox** (NVIDIA). I actively investigate **robot learning** from the perspective of scaling simulation learning systems for policy learning in simulation and transferred to real-world robotic manipulation tasks.
+Outside of research, I am a software engineer at **Microsoft** enhancing **OneNote** for security and Copilot Notebook integration.
 
-I studied **Computer Science and Biomedical Engineering** focusing on **Machine Learning and Neural Engineering** throughout my bachelors at the **University of Houston**. During my bachelors, I spent three years working on a range of research topics (brain-machine interfaces, computer vision, and robotics). Notably, I spent over two years with **Dr. Shishir Shah** (University of Houston) developing pose-invariant methods for face recognition models (Bachelors Thesis, VISAPP 2025). 
+Prior, I studied **Computer Science and Biomedical Engineering** focusing on **Machine Learning and Neural Engineering** throughout my bachelors at the **University of Houston**. During my bachelors, I spent four years working on a range of research topics (brain-machine interfaces, computer vision, and robotics). Notably, I spent over two years with **Dr. Shishir Shah** (University of Houston) developing pose-invariant methods for face recognition models (Bachelors Thesis, VISAPP 2025). 
 
-For work experience, I have spent my past three summers interning at **Microsoft, Amazon Web Services, and Northrop Grumman** where I focused on engineering machine learning systems and applying models for practical enterprise applications.
+For work experience, I have spent my past three summers interning at **Microsoft, Amazon Web Services, and Northrop Grumman** where I focused on engineering machine learning platforms and applying models for practical enterprise applications.
 
 May you have any questions or interest in collaboration please reach out to me at **carterung [at] gmail [dot] com**.
 
