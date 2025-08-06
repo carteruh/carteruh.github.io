@@ -19,7 +19,7 @@ Welcome to my homepage! Here are some quick facts about me:
 🦾 I am very passionate about leveraging AI and Computer Vision to applications in robotics, accessibility, and health.
 
 ## Overview
-I am a Vietnamese-American born and raised in Houston, TX. I moved to Seattle after graduation to conduct my predoctoral research as a young research investigator at the **University of Washington** in the **Robotics and State Estimation Lab** and **Personal Robotics Lab** advised by **Dieter Fox** (NVIDIA) and **Siddhartha Srinivasa** (UW). My research actively investigates **robot learning** from the perspective of scaling simulation learning systems for policy learning and motion planning data generation and transferred to real-world robotic manipulation tasks.
+I am a Vietnamese-American born and raised in Houston, TX. I moved to Seattle after graduation to conduct my predoctoral research as a young research investigator at the **University of Washington** in the **Robotics and State Estimation Lab** and **Personal Robotics Lab** advised by **Dieter Fox** (NVIDIA) and **Siddhartha Srinivasa** (UW). My research actively investigates **robot learning** from the perspective of scaling simulation learning systems for policy learning and motion planning data generation and transferred to real-world robotic manipulation tasks. As a prospective doctoral student, I am deeply grateful to be supported by the **National Science Foundation** CISE Graduate Fellowship!
 
 Outside of research, I am a software engineer at **Microsoft** enhancing **OneNote** for security and Copilot Notebook integration.
 
@@ -30,6 +30,8 @@ For work experience, I have spent my past three summers interning at **Microsoft
 May you have any questions or interest in collaboration please reach out to me at **carterung [at] gmail [dot] com**.
 
 ## News
+**August 2025** I am excited to have been selected as a 2025 National Science Foundation Computer and Information Science and Engineering Graduate Fellow! 
+
 **July 2025** Introducing my 2nd-author work **RoboEval** -- a structured evaluation framework for bimanual robot manipulation!
 
 **February 2025** Published at the **20th International Conference on Computer Vision Theory and Applications (VISAPP) 2025** as **first-author**.
