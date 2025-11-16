@@ -1,6 +1,6 @@
 - id: roboeval25
   title: "RoboEval: Where Robotic Manipulation Meets Structured and Scalable Evaluation"
-  authors: "Yi Ru Wang, **Carter Ung**, Grant Tannert, Jiafei Duan, Josephine Li, Amy Le, Rishabh Oswal, Markus Grotz, Wilbert Pumacay, Yuquan Deng, Ranjay Krishna, Dieter Fox, Siddhartha Srinivasa"
+  authors: "Yi Ru Wang, **Carter Ung**, Christopher Tan, Grant Tannert, Jiafei Duan, Josephine Li, Amy Le, Rishabh Oswal, Markus Grotz, Wilbert Pumacay, Yuquan Deng, Ranjay Krishna, Dieter Fox, Siddhartha Srinivasa"
   venue: "arXiv 2025 (Under Review)"
   badge: ""
   highlight: true            # <- makes the row yellow
@@ -10,7 +10,7 @@
     paper:   "https://arxiv.org/pdf/2507.00435"    # replace with real URL
     code:    "https://github.com/Robo-Eval/RoboEval"
   teaser: |
-    RoboEval introduces a unified evaluation suite covering 18 bimanual manipulation
+    RoboEval introduces a unified evaluation suite covering bimanual manipulation
     tasks with fine-grained metrics so researchers can compare models beyond binary
     success/failure.
 
@@ -26,6 +26,16 @@
     paper:  "https://www.scitepress.org/Papers/2025/131864/131864.pdf"
   teaser: |
     We study how many viewpoint images are truly needed for robust, pose-invariant face recognition and show that a compact pose set dramatically reduces data-collection overhead.
+
+# ---  Under Review  ----------------------------------------------------------
+- id: dualvxm25
+  title: "Dual-VXM: A Prior-Aware Dual-Encoder UNet for Watch-and-Wait Monitoring with Low-Field MRI"
+  authors: "Mohammad Javadi, Panagiotis Tsiamyrtzis, **Carter Ung**, Ernst Leiss, Andrew Webb, Nikolaos Tsekos"
+  venue: "Under Review"
+  badge: ""
+  thumb: "/images/dual-vxm.gif"
+  teaser: |
+    We present a novel dual-encoder UNet architecture that leverages prior high-field MRI scans to enhance low-field MRI image quality for improved monitoring of Low-Grade Gliomas (LGG).
 
 # ---  Undergraduate thesis  -------------------------------------------------
 - id: ug_thesis_pose

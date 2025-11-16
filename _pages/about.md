@@ -1,43 +1,39 @@
 ---
 permalink: /
-title: "Hello!"
+title: "Welcome to my homepage!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-![Illustration of Robot interacting with Objects](/images/beemo.webp){: .align-right width="300px"}
-Welcome to my homepage! Here are some quick facts about me:
+![Illustration of Robot interacting with Objects](/images/usingimitati.gif){: .align-right width="400px"}
+Here are some quick facts about me:
+
+🦾 My research interests are in **robotics** spanning **reasoning, policy learning, perception, and generative approaches**. 
 
 🧑‍🎓 I recently graduated from the **University of Houston** with a B.S. in **Computer Science and Biomedical Engineering**.
 
-🧑‍💻 I am a full-time Engineer at **Microsoft** and Research Intern at the **University of Washington**. 
+🧑‍💻 I am a Research Intern at the **University of Washington** and full-time Engineer at **Microsoft**. 
 
-📸 My research interests are in **embodied AI** spanning **computer vision, robotics, policy learning, perception, and generative approaches**. 
-
-🦾 I am very passionate about leveraging AI and Computer Vision to applications in robotics, accessibility, and health.
 
 ## Overview
-I am a Vietnamese-American born and raised in Houston, TX. I moved to Seattle after graduation to conduct my predoctoral research as a young research investigator at the **University of Washington** in the **Robotics and State Estimation Lab** and **Personal Robotics Lab** advised by **Dieter Fox** (NVIDIA) and **Siddhartha Srinivasa** (UW). My research actively investigates **robot learning** from the perspective of scaling simulation learning systems for policy learning and motion planning data generation and transferred to real-world robotic manipulation tasks. As a prospective doctoral student, I am deeply grateful to be supported by the **National Science Foundation** CISE Graduate Fellowship!
+I am a Vietnamese-American born and raised in Houston, TX. I moved to Seattle after graduation to conduct my predoctoral research at the **University of Washington** in the **Robotics and State Estimation Lab** and **Personal Robotics Lab** advised by **Dieter Fox** (Founding Robotics Director at Ai2 and NVIDIA) and **Siddhartha Srinivasa** (Founding Robotics Director at Amazon Robotics AI, Partner at Madrona Ventures). My research investigates **robot manipulation** from the perspective of building action policies and robot learning systems centered on rich and diverse data representations for embodied reasoning such as task generalization and long-horizon planning. As a prospective doctoral student, I am deeply grateful to be supported by the **National Science Foundation** CISE Graduate Fellowship!
 
-Outside of research, I am a software engineer at **Microsoft** enhancing **OneNote** for security and Copilot Notebook integration.
+Outside of research, I am a software engineer at **Microsoft** building **Copilot** into **OneNote**.
 
-Prior, I studied **Computer Science and Biomedical Engineering** focusing on **Machine Learning and Neural Engineering** throughout my bachelors at the **University of Houston**. During my bachelors, I spent four years working on a range of research topics (brain-machine interfaces, computer vision, and robotics). Notably, I spent over two years with **Dr. Shishir Shah** (University of Houston) developing pose-invariant methods for face recognition models (Bachelors Thesis, VISAPP 2025). 
+Prior, I studied **Computer Science and Biomedical Engineering** focusing on **Machine Learning and Neural Engineering** throughout my bachelors at the **University of Houston**. During my bachelors, I spent four years working on a range of research topics (brain-machine interfaces, computer vision, and robotics). Notably, I spent over two years with **Dr. Shishir Shah** (Chief AI Officer at OU) developing pose-invariant methods for face recognition models (Bachelors Thesis, VISAPP 2025). 
 
 For work experience, I have spent my past three summers interning at **Microsoft, Amazon Web Services, and Northrop Grumman** where I focused on engineering machine learning platforms and applying models for practical enterprise applications.
 
-May you have any questions or interest in collaboration please reach out to me at **carterung [at] gmail [dot] com**.
+I always enjoy chatting so feel free to reach out at **carterung [at] gmail [dot] com**
 
 ## News
-**August 2025** I am excited to have been selected as a 2025 National Science Foundation Computer and Information Science and Engineering Graduate Fellow! 
+**August 2025** Selected as a 2025 National Science Foundation Computer and Information Science and Engineering Graduate Fellow! 
 
-**July 2025** Introducing my 2nd-author work **RoboEval** -- a structured evaluation framework for bimanual robot manipulation!
+**July 2025** Released **RoboEval** -- exploring granular evaluation for bimanual manipulation
 
 **February 2025** Published at the **20th International Conference on Computer Vision Theory and Applications (VISAPP) 2025** as **first-author**.
-
-**November 2024** My research in pose-invariant face recognition was accepted and presented at the  **Rice Gulf Coast Undergraduate Research Symposium (GCURS) 2024** as an oral presentation.
-
  
 {% comment %} ---------- Publications ----------------------------------- {% endcomment %}
 ## 📝 Publications
@@ -74,10 +70,10 @@ May you have any questions or interest in collaboration please reach out to me a
       <span class="papertitle"><em>{{ p.title }}</em></span>
       <br>{{ p.authors | markdownify }}<br>
       <em>{{ p.venue }}</em><br>
-      <a href="{{ p.links.paper }}">paper</a>
-      {% if p.links.project %}/ <a href="{{ p.links.project }}">project page</a>{% endif %}
-      {% if p.links.arxiv  %}/ <a href="{{ p.links.arxiv  }}">arXiv</a>{% endif %}
-      {% if p.links.code  %}/ <a href="{{ p.links.code }}">code</a>{% endif %}
+      {% if p.links.paper %}<a href="{{ p.links.paper }}">paper</a>{% endif %}
+      {% if p.links.project %}{% if p.links.paper %}/ {% endif %}<a href="{{ p.links.project }}">project page</a>{% endif %}
+      {% if p.links.arxiv  %}{% if p.links.paper or p.links.project %}/ {% endif %}<a href="{{ p.links.arxiv  }}">arXiv</a>{% endif %}
+      {% if p.links.code  %}{% if p.links.paper or p.links.project or p.links.arxiv %}/ {% endif %}<a href="{{ p.links.code }}">code</a>{% endif %}
       <p>{{ p.teaser | markdownify }}</p>
   </td>
   </tr>
