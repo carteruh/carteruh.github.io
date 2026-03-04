@@ -1,13 +1,23 @@
+- id: roboplayground
+  title: "RoboPlayground: Democratizing Robotic Evaluation through Structured Physical Domains"
+  authors_html: 'Yi Ru Wang<sup>*</sup>, <strong>Carter Ung</strong><sup>*</sup>, Evan Gubarev, Christopher Tan, Siddhartha Srinivasa<sup>&dagger;</sup>, Dieter Fox<sup>&dagger;</sup> <br><small><sup>*</sup>Equal contribution &nbsp; <sup>&dagger;</sup>Equal advising</small>'
+  venue: "Coming Soon"
+  badge: ""
+  highlight: true
+  thumb: "/images/roboplayground_teaser.png"
+  links: {}
+  teaser: ""
+
 - id: roboeval25
   title: "RoboEval: Where Robotic Manipulation Meets Structured and Scalable Evaluation"
-  authors: "Yi Ru Wang, **Carter Ung**, Christopher Tan, Grant Tannert, Jiafei Duan, Josephine Li, Amy Le, Rishabh Oswal, Markus Grotz, Wilbert Pumacay, Yuquan Deng, Ranjay Krishna, Dieter Fox, Siddhartha Srinivasa"
-  venue: "arXiv 2025 (Under Review)"
+  authors_html: 'Yi Ru Wang, <strong>Carter Ung</strong>, Christopher Tan, Grant Tannert, Jiafei Duan, Josephine Li, Amy Le, Rishabh Oswal, Markus Grotz, Wilbert Pumacay, Yuquan Deng, Ranjay Krishna, Dieter Fox<sup>&dagger;</sup>, Siddhartha Srinivasa<sup>&dagger;</sup> <br><small><sup>&dagger;</sup>Equal advising</small>'
+  venue: "IEEE Conference on Robotics and Automation 2026 (ICRA), Eval&Deploy Workshop Paper at CoRL (Oral Spotlight), Bimanual Manipulation: Advancing Human-Humanoid Interaction and Collaboration Workshop at IEEE International Conference on Intelligent Robots and Systems (IROS 2025)"
   badge: ""
-  highlight: true            # <- makes the row yellow
-  thumb: "/images/roboeval.gif"    # the file you’ll create below
+  highlight: true
+  thumb: "/images/roboeval.gif"
   links:
     project: "https://robo-eval.github.io"
-    paper:   "https://arxiv.org/pdf/2507.00435"    # replace with real URL
+    paper:   "https://arxiv.org/pdf/2507.00435"
     code:    "https://github.com/Robo-Eval/RoboEval"
   teaser: |
     RoboEval introduces a unified evaluation suite covering bimanual manipulation

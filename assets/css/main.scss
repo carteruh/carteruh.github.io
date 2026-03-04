@@ -34,11 +34,112 @@
 @import "archive";
 @import "sidebar";
 
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
+/* Font Awesome loaded via CDN in head.html */
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/*══════════  Full-width page layout  ══════════════════════════════*/
+#main {
+  margin: 2em auto;
+  padding-left: clamp(2em, 6vw, 6em);
+  padding-right: clamp(2em, 6vw, 6em);
+}
+
+.page {
+  width: 100%;
+}
+
+/*══════════  Inline profile header  ═══════════════════════════════*/
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #e8e2d8;
+}
+
+.profile-header__text {
+  flex: 1;
+  min-width: 0;
+}
+
+.profile-header__name {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0 0 0.25em;
+  line-height: 1.2;
+  color: #1b1b1b;
+}
+
+.profile-header__title {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0 0 1em;
+  line-height: 1.5;
+}
+
+.profile-header__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.profile-header__links a {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.85rem;
+  color: #333;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 0;
+  transition: color 0.2s ease;
+}
+
+.profile-header__links a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.profile-header__links i {
+  font-size: 1.05em;
+}
+
+.profile-header__photo {
+  flex-shrink: 0;
+  width: 220px;
+}
+
+.profile-header__photo img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 600px) {
+  .profile-header {
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-header__links {
+    justify-content: center;
+  }
+
+  .profile-header__photo {
+    width: 160px;
+  }
+
+  .profile-header__name {
+    font-size: 1.8rem;
+  }
+}
 
 /*══════════  Publication cards  ════════════════════════════════════*/
 /* Root layout for each publication row */
@@ -71,8 +172,8 @@
 
 /* Left thumbnail */
 .paper-thumb {
-  width: 220px;
-  padding: 10px 14px 10px 0;
+  width: 240px;
+  padding: 14px 20px 14px 0;
 }
 
 .paper-box-image {
@@ -83,9 +184,10 @@
   position: absolute;
   top: 0;
   left: 0;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.7rem;
-  padding: 2px 6px;
-  background: #0077b6;
+  padding: 2px 8px;
+  background: #000;
   color: white;
   border-radius: 3px;
 }
@@ -95,44 +197,90 @@
   display: block;
   width: 100%;
   height: auto;
-  max-height: 140px;
+  max-height: 160px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Right content */
 .paper-text {
-  padding: 10px 10px 10px 0;
-  font-size: 0.95rem;
-  line-height: 1.35;
+  padding: 14px 10px 14px 0;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .paper-text a.papertitle {
-  font-weight: 600;
-  color: #0077b6;
+  font-weight: 700;
+  color: #1b1b1b;
   text-decoration: none;
 }
 
 .paper-text em {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-style: italic;
   display: inline-block;
-  margin-top: 2px;
-  margin-bottom: 4px;
+  margin-top: 4px;
+  margin-bottom: 6px;
+  color: #555;
 }
 
 .paper-text p {
-  margin: 4px 0 0 0;
-  line-height: 1.35;
+  margin: 6px 0 0 0;
+  line-height: 1.6;
+  color: #333;
+  font-size: 0.95rem;
 }
 
 .papertitle {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 700;
-  color: #005a94;
+  color: #1b1b1b;
+  line-height: 1.4;
+}
+
+/* Paper link buttons (like zixianma style) */
+.paper-links {
+  margin-top: 8px;
+}
+
+.paper-links a {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #333;
+  text-decoration: none;
+  padding: 3px 10px;
+  border: 1.5px solid #333;
+  border-radius: 4px;
+  margin-right: 6px;
+  display: inline-block;
+  margin-bottom: 4px;
+  transition: all 0.2s ease;
+}
+
+.paper-links a:hover {
+  background: #1b1b1b;
+  color: #fdfaf4;
+  text-decoration: none;
+}
+
+/* Venue styling */
+.paper-venue {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 4px;
   line-height: 1.5;
 }
 
+/* Author list styling */
+.paper-authors {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-top: 4px;
+  color: #333;
+}
 
 .paper-box {
     display: flex;
@@ -140,9 +288,9 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
+    border-bottom: 1px #e8e2d8 solid;
     padding: 2em 0 2em 0;
-    
+
 
     .paper-box-image{
         justify-content: center;
@@ -151,16 +299,17 @@
         order: 2;
         img {
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             object-fit: cover;
+            border-radius: 8px;
         }
     }
-    
+
     .paper-box-text{
         max-width: 100%;
         order: 1;
     }
-    
+
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
@@ -168,7 +317,7 @@
             max-width: 40%;
             order: 1;
         }
-        
+
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
@@ -182,12 +331,12 @@
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
     margin-top: -$scroll_offset;
 }
 
@@ -198,7 +347,8 @@ h1:before, .anchor:before {
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
+    background-color: #000;
     font-size: .8em;
+    font-family: 'Roboto Mono', monospace;
 }
 
