@@ -12,7 +12,7 @@ redirect_from:
 <div class="profile-header">
   <div class="profile-header__text">
     <h1 class="profile-header__name">Carter Ung</h1>
-    <p class="profile-header__title">Engineering at Microsoft &middot; Embodied AI &amp; Robotics at University of Washington</p>
+    <p class="profile-header__title">Incoming CS PhD at Johns Hopkins &middot; Embodied AI &amp; Robotics at University of Washington</p>
     <div class="profile-header__links">
       <a href="mailto:carterung@gmail.com"><i class="fas fa-fw fa-envelope"></i> Email</a>
       <a href="{{ site.author.CV }}"><i class="fas fa-fw fa-file-lines"></i> CV</a>
@@ -26,7 +26,9 @@ redirect_from:
   </div>
 </div>
 
-I am a predoctoral researcher at the **University of Washington**, working in the **Robotics and State Estimation Lab** and **Personal Robotics Lab** under **Dieter Fox** (Sr. Director, <a href="https://allenai.org/">Ai2</a>) and **Siddhartha Srinivasa** (Partner, <a href="https://www.madrona.com/">Madrona Ventures</a>). My research centers on **robot manipulation**: building action policies and learning systems that leverage rich, diverse data representations for embodied reasoning, task generalization, and long-horizon planning. I am supported by the **NSF CISE Graduate Fellowship**.
+I am an incoming CS PhD student at **The Johns Hopkins University**, advised by <a href="https://homangab.github.io/">**Homanga Bharadhwaj**</a> (Research Scientist, <a href="https://about.meta.com/realitylabs/">Meta Reality Labs</a>) and <a href="https://www.cs.jhu.edu/hager/">**Greg Hager**</a> (Director, <a href="https://www.nsf.gov/cise/">NSF CISE</a> and <a href="https://www.amazon.science/robotics">Amazon Robotics</a>). My research centers on **robot manipulation**: building action policies and learning systems that leverage rich, diverse data representations for embodied reasoning, task generalization, and long-horizon planning. I am supported by the **NSF CISE Graduate Fellowship**.
+
+Currently, I am a predoctoral researcher at the **University of Washington**, advised by <a href="https://homes.cs.washington.edu/~fox/">**Dieter Fox**</a> (Sr. Director, <a href="https://allenai.org/">Ai2</a>) and <a href="https://goodrobot.ai/">**Siddhartha Srinivasa**</a> (Partner, <a href="https://www.madrona.com/">Madrona Ventures</a>) in the **Robotics and State Estimation Lab** and **Personal Robotics Lab**.
 
 I also work as a software engineer at **Microsoft**, building **Copilot** into **OneNote**. Previously, I studied **Computer Science** and **Biomedical Engineering** at the **University of Houston**, where I spent over two years with **Dr. Shishir Shah** on pose-invariant face recognition (VISAPP 2025).
 

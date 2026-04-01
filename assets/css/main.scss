@@ -38,6 +38,16 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/*══════════  Body link styling  ═══════════════════════════════════*/
+.page__content a:not(.btn):not(.paper-links a):not(.profile-header__links a) {
+  color: #6b5b4e;
+  text-decoration: none;
+  &:hover {
+    color: #3d3129;
+    text-decoration: underline;
+  }
+}
+
 /*══════════  Full-width page layout  ══════════════════════════════*/
 #main {
   margin: 2em auto;
