@@ -19,6 +19,7 @@ redirect_from:
       <a href="{{ site.author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Scholar</a>
       <a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github"></i> GitHub</a>
       <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-fw fa-linkedin"></i> LinkedIn</a>
+      <a href="https://x.com/{{ site.author.twitter }}"><i class="fab fa-fw fa-x-twitter"></i> X</a>
     </div>
   </div>
   <div class="profile-header__photo">
