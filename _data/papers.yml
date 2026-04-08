@@ -5,7 +5,9 @@
   badge: ""
   highlight: true
   thumb: "/images/roboplayground_teaser.png"
-  links: {}
+  links:
+    paper: "https://arxiv.org/pdf/2604.05226"
+    project: "https://roboplayground.github.io/"
   teaser: ""
 
 - id: roboeval25
