@@ -1,7 +1,7 @@
 - id: roboplayground
   title: "RoboPlayground: Democratizing Robotic Evaluation through Structured Physical Domains"
   authors_html: 'Yi Ru Wang<sup>*</sup>, <strong>Carter Ung</strong><sup>*</sup>, Evan Gubarev, Christopher Tan, Siddhartha Srinivasa<sup>&dagger;</sup>, Dieter Fox<sup>&dagger;</sup> <br><small><sup>*</sup>Equal contribution &nbsp; <sup>&dagger;</sup>Equal advising</small>'
-  venue: "Coming Soon"
+  venue: "Under Review"
   badge: ""
   highlight: true
   thumb: "/images/roboplayground_teaser.png"
