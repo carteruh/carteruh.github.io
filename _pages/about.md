@@ -45,11 +45,11 @@ I've come across many kind people in my curious journey toward academia and indu
 
 ## News
 
-**April 2026:** We release <a href="https://roboplayground.github.io/">**RoboPlayground**</a> and partner with the <a href="https://x.com/BitRobotNetwork/status/2042244149135757591?s=20">**BitRobot Network**</a> to unveil **TeleArms**!
-
-**January 2026:** <a href="https://robo-eval.github.io">**RoboEval**</a> accepted to **IEEE International Conference on Robotics and Automation (ICRA) 2026**!
-
-**August 2025:** Selected as a 2025 **National Science Foundation Computer and Information Science and Engineering Graduate Fellow**!
+<ul class="news-list">
+  <li><span class="news-date">Apr 2026</span> We release <a href="https://roboplayground.github.io/"><strong>RoboPlayground</strong></a> and partner with the <a href="https://x.com/BitRobotNetwork/status/2042244149135757591?s=20"><strong>BitRobot Network</strong></a> to unveil <strong>TeleArms</strong>!</li>
+  <li><span class="news-date">Jan 2026</span> <a href="https://robo-eval.github.io"><strong>RoboEval</strong></a> accepted to <strong>IEEE International Conference on Robotics and Automation (ICRA) 2026</strong>!</li>
+  <li><span class="news-date">Aug 2025</span> Selected as a 2025 <strong>National Science Foundation Computer and Information Science and Engineering Graduate Fellow</strong>!</li>
+</ul>
 
 ---
 
