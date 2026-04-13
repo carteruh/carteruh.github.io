@@ -27,9 +27,9 @@ redirect_from:
   </div>
 </div>
 
-I am an incoming CS PhD student at **The Johns Hopkins University**, advised by <a href="https://homangab.github.io/">**Homanga Bharadhwaj**</a> (Research Scientist, <a href="https://about.meta.com/realitylabs/">Meta Reality Labs</a>) and <a href="https://www.cs.jhu.edu/hager/">**Greg Hager**</a> (Director, <a href="https://www.nsf.gov/cise/">NSF CISE</a> and <a href="https://www.amazon.science/robotics">Amazon Robotics</a>). My research centers on **robot manipulation**: building action policies and learning systems that leverage rich, diverse data representations for embodied reasoning, task generalization, and long-horizon planning. I am supported by the **NSF CISE Graduate Fellowship**.
+I am an incoming CS PhD student at **The Johns Hopkins University**, advised by <a href="https://homangab.github.io/">**Homanga Bharadhwaj**</a> (Research Scientist, <a href="https://about.meta.com/realitylabs/">Meta Reality Labs</a>) and <a href="https://www.cs.jhu.edu/hager/">**Greg Hager**</a> (Director, <a href="https://www.nsf.gov/cise/">NSF CISE</a> and <a href="https://www.amazon.science/robotics">Amazon Robotics</a>). My research is at the intersection of robotics and artificial intelligence: building full-stack robotic systems that can reason in clutter and operate in messy human environments. I am supported by the **NSF CISE Graduate Fellowship**.
 
-Currently, I am a predoctoral researcher at the **University of Washington**, advised by <a href="https://homes.cs.washington.edu/~fox/">**Dieter Fox**</a> (Sr. Director, <a href="https://allenai.org/">Ai2</a>) and <a href="https://goodrobot.ai/">**Siddhartha Srinivasa**</a> (Partner, <a href="https://www.madrona.com/">Madrona Ventures</a>) in the **Robotics and State Estimation Lab** and **Personal Robotics Lab**.
+Currently, I am a predoctoral researcher at the **University of Washington**, advised by <a href="https://homes.cs.washington.edu/~fox/">**Dieter Fox**</a> (Founding Director, <a href="https://research.nvidia.com/labs/srl/">Seattle NVIDIA Robotics Lab</a>) and <a href="https://goodrobot.ai/">**Siddhartha Srinivasa**</a> (Founding Director, <a href="https://www.amazon.science/robotics">Amazon Robotics AI</a>) in the **Robotics and State Estimation Lab** and **Personal Robotics Lab**.
 
 I also work as a software engineer at **Microsoft**, building **Copilot** into **OneNote**. Previously, I studied **Computer Science** and **Biomedical Engineering** at the **University of Houston**, where I spent over two years with **Dr. Shishir Shah** on pose-invariant face recognition (VISAPP 2025).
 
@@ -37,9 +37,17 @@ I've come across many kind people in my curious journey toward academia and indu
 
 ---
 
+<div class="research-statement" markdown="1">
+*I work toward general-purpose robots that safely reason and manipulate alongside people in everyday environments.* I am interested in a) building full-stack robotic systems that continuously collect, train on, and evaluate diverse manipulation data with minimal expert involvement, b) learning generalizable representations from human data that capture how people reason, plan, and grasp across diverse tasks, and c) closing the loop between simulation and the real world for dexterous manipulation that continually grows skills through interaction and deployment.
+</div>
+
+---
+
 ## News
 
-**January 2026:** **RoboEval** accepted to **IEEE International Conference on Robotics and Automation (ICRA) 2026**!
+**April 2026:** We release <a href="https://roboplayground.github.io/">**RoboPlayground**</a> and partner with the <a href="https://x.com/BitRobotNetwork/status/2042244149135757591?s=20">**BitRobot Network**</a> to unveil **TeleArms**!
+
+**January 2026:** <a href="https://robo-eval.github.io">**RoboEval**</a> accepted to **IEEE International Conference on Robotics and Automation (ICRA) 2026**!
 
 **August 2025:** Selected as a 2025 **National Science Foundation Computer and Information Science and Engineering Graduate Fellow**!
 

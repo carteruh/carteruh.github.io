@@ -48,6 +48,24 @@
   }
 }
 
+/*══════════  Research statement pull quote  ════════════════════════*/
+.research-statement {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-size: 1.02rem;
+  line-height: 1.8;
+  color: #4a3228;
+  border-left: 3px solid #8b5e4b;
+  padding: 0.5em 0 0.5em 1.25em;
+  margin: 1.5em 0;
+}
+
+.research-statement em {
+  font-style: italic;
+  font-weight: 600;
+  color: #6b3232;
+}
+
 /*══════════  Full-width page layout  ══════════════════════════════*/
 #main {
   margin: 2em auto;
