@@ -4,6 +4,7 @@
   venue: "Under Review"
   badge: ""
   highlight: true
+  video: "/images/roboplayground_teaser.mp4"
   thumb: "/images/roboplayground_teaser.png"
   links:
     paper: "https://arxiv.org/pdf/2604.05226"
