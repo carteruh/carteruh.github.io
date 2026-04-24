@@ -27,7 +27,7 @@ redirect_from:
   </div>
 </div>
 
-I am an incoming CS PhD student at **The Johns Hopkins University**, advised by <a href="https://homangab.github.io/">**Homanga Bharadhwaj**</a> (Research Scientist, <a href="https://www.aboutamazon.com/news/company-news/amazon-covariant-ai-robots">Amazon Frontiers and Robotics — FAR</a>) and <a href="https://www.cs.jhu.edu/hager/">**Greg Hager**</a> (Director, <a href="https://www.nsf.gov/cise/">NSF CISE</a> and <a href="https://www.amazon.science/robotics">Amazon Robotics</a>). My research is at the intersection of robotics and artificial intelligence: building full-stack robotic systems that can reason in clutter and operate in messy human environments. I am supported by the **NSF CISE Graduate Fellowship**.
+I am an incoming CS PhD student at **The Johns Hopkins University**, advised by <a href="https://homangab.github.io/">**Homanga Bharadhwaj**</a> (Research Scientist, <a href="https://www.aboutamazon.com/news/company-news/amazon-covariant-ai-robots">Amazon Frontiers AI and Robotics — FAR</a>) and <a href="https://www.cs.jhu.edu/hager/">**Greg Hager**</a> (Director, <a href="https://www.nsf.gov/cise/">NSF CISE</a> and <a href="https://www.amazon.science/robotics">Amazon Robotics</a>). My research is at the intersection of robotics and artificial intelligence: building full-stack robotic systems that can reason in clutter and operate in messy human environments. I am supported by the **NSF CISE Graduate Fellowship**.
 
 Currently, I am a predoctoral researcher at the **University of Washington**, advised by <a href="https://homes.cs.washington.edu/~fox/">**Dieter Fox**</a> (Founding Director, <a href="https://research.nvidia.com/labs/srl/">Seattle NVIDIA Robotics Lab</a>) and <a href="https://goodrobot.ai/">**Siddhartha Srinivasa**</a> (Founding Director, <a href="https://www.amazon.science/robotics">Amazon Robotics AI</a>) in the **Robotics and State Estimation Lab** and **Personal Robotics Lab**.
 
@@ -40,6 +40,58 @@ I've come across many kind people in my curious journey toward academia and indu
 <div class="research-statement" markdown="1">
 *I work toward general-purpose robots that safely reason and manipulate alongside people in everyday environments.* I am interested in a) building full-stack robotic systems that continuously collect, train on, and evaluate diverse manipulation data with minimal expert involvement, b) learning generalizable representations from human data that capture how people reason, plan, and grasp across diverse tasks, and c) closing the loop between simulation and the real world for dexterous manipulation that continually grows skills through interaction and deployment.
 </div>
+
+---
+
+<div class="people-intro" data-aos="fade-up">
+  <span class="people-intro-line">We are shaped by the problems we chase and the people we chase them with.</span>
+</div>
+
+<h3 class="people-heading" data-aos="fade-up">Advisors</h3>
+<div class="people-grid">
+  <a href="https://homangab.github.io/" class="people-card" data-aos="fade-up" data-aos-delay="0">
+    <img src="/images/advisor_homanga.png" alt="Homanga Bharadhwaj">
+    <span class="people-name">Homanga Bharadhwaj</span>
+    <span class="people-role">Research Scientist, Amazon FAR</span>
+  </a>
+  <a href="https://www.cs.jhu.edu/hager/" class="people-card" data-aos="fade-up" data-aos-delay="100">
+    <img src="/images/advisor_hager.jpg" alt="Greg Hager">
+    <span class="people-name">Greg Hager</span>
+    <span class="people-role">Director, NSF CISE & Amazon Robotics</span>
+  </a>
+  <a href="https://homes.cs.washington.edu/~fox/" class="people-card" data-aos="fade-up" data-aos-delay="200">
+    <img src="/images/advisor_fox.jpg" alt="Dieter Fox">
+    <span class="people-name">Dieter Fox</span>
+    <span class="people-role">Founding Director, Seattle NVIDIA Robotics Lab</span>
+  </a>
+  <a href="https://goodrobot.ai/" class="people-card" data-aos="fade-up" data-aos-delay="300">
+    <img src="/images/advisor_srinivasa.jpg" alt="Siddhartha Srinivasa">
+    <span class="people-name">Siddhartha Srinivasa</span>
+    <span class="people-role">Founding Director, Amazon Robotics AI</span>
+  </a>
+  <a href="https://www.ou.edu/coe/cs/people/faculty/shishir-shah" class="people-card" data-aos="fade-up" data-aos-delay="400">
+    <img src="/images/advisor_shah.jpg" alt="Shishir Shah" style="object-position: center 30%;">
+    <span class="people-name">Shishir Shah</span>
+    <span class="people-role">Chief AI Officer, University of Oklahoma</span>
+  </a>
+</div>
+
+<h3 class="people-heading">Mentors</h3>
+<div class="people-grid">
+  <a href="https://helen9975.github.io/" class="people-card" data-aos="fade-up" data-aos-delay="0">
+    <img src="/images/advisor_wang.jpg" alt="Yi Ru Helen Wang">
+    <span class="people-name">Yi Ru (Helen) Wang</span>
+    <span class="people-role">PhD Student, University of Washington</span>
+  </a>
+  <a href="https://dustin-nguyen-qil.github.io/" class="people-card" data-aos="fade-up" data-aos-delay="100">
+    <img src="/images/advisor_nguyen.png" alt="Vuong (Dustin) Nguyen">
+    <span class="people-name">Vuong (Dustin) Nguyen</span>
+    <span class="people-role">Senior AI Research Scientist, AutoDesk AI</span>
+  </a>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init({ once: true });</script>
 
 ---
 
