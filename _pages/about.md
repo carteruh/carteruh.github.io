@@ -44,7 +44,9 @@ I've come across many kind people in my curious journey toward academia and indu
 ---
 
 <div class="people-intro" data-aos="fade-up">
-  <span class="people-intro-line">We are shaped by the problems we chase and the people we chase them with.</span>
+  <span class="people-intro-line">"We keep moving forward, opening new doors, and doing new things, because we're curious and curiosity keeps leading us down new paths."</span>
+  <span class="people-intro-attr">— Walt Disney</span>
+  <span class="people-intro-sub">To the people who have shaped my academic journey.</span>
 </div>
 
 <h3 class="people-heading" data-aos="fade-up">Advisors</h3>
