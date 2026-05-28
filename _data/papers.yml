@@ -1,7 +1,7 @@
 - id: roboplayground
   title: "RoboPlayground: Democratizing Robotic Evaluation through Structured Physical Domains"
   authors_html: 'Yi Ru Wang<sup>*</sup>, <strong>Carter Ung</strong><sup>*</sup>, Evan Gubarev, Christopher Tan, Siddhartha Srinivasa<sup>&dagger;</sup>, Dieter Fox<sup>&dagger;</sup> <br><small><sup>*</sup>Equal contribution &nbsp; <sup>&dagger;</sup>Equal advising</small>'
-  venue: "Under Review"
+  venue: '<span class="venue-status">Under Review</span><br><span class="venue-workshop"><a href="https://foundation-models-meet-embodied-agents.github.io/cvpr2026/">Foundation Models Meet Embodied Agents Workshop</a> at <a href="https://cvpr.thecvf.com/Conferences/2026">CVPR 2026</a></span><br><span class="venue-workshop"><a href="https://scalebot-workshop.github.io/">Workshop on Scalable Robot Learning Systems</a> at <a href="https://cvpr.thecvf.com/Conferences/2026">CVPR 2026</a></span>'
   badge: ""
   highlight: true
   video: "/images/roboplayground_teaser.mp4"
@@ -14,7 +14,7 @@
 - id: roboeval25
   title: "RoboEval: Where Robotic Manipulation Meets Structured and Scalable Evaluation"
   authors_html: 'Yi Ru Wang, <strong>Carter Ung</strong>, Christopher Tan, Grant Tannert, Jiafei Duan, Josephine Li, Amy Le, Rishabh Oswal, Markus Grotz, Wilbert Pumacay, Yuquan Deng, Ranjay Krishna, Dieter Fox<sup>&dagger;</sup>, Siddhartha Srinivasa<sup>&dagger;</sup> <br><small><sup>&dagger;</sup>Equal advising</small>'
-  venue: "IEEE Conference on Robotics and Automation 2026 (ICRA), Eval&Deploy Workshop Paper at CoRL (Oral Spotlight), Bimanual Manipulation: Advancing Human-Humanoid Interaction and Collaboration Workshop at IEEE International Conference on Intelligent Robots and Systems (IROS 2025)"
+  venue: '<span class="venue-main"><a href="https://2026.ieee-icra.org/">ICRA 2026</a></span><br><span class="venue-workshop">Eval&Deploy Workshop at <a href="https://www.corl.org/">CoRL 2025</a> (Oral Spotlight)</span><br><span class="venue-workshop">Bimanual Manipulation: Advancing Human-Humanoid Interaction and Collaboration Workshop at <a href="http://iros25.org/">IROS 2025</a></span>'
   badge: ""
   highlight: true
   thumb: "/images/roboeval.gif"
@@ -32,7 +32,7 @@
 - id: visapp25_pose
   title: "Minimizing Number of Poses for Pose-Invariant Face Recognition"
   authors: "**Carter Ung**, Pranav Mantini, Shishir Shah"
-  venue: "International Conference on Computer Vision Theory and Applications (VISAPP) 2025"
+  venue: '<span class="venue-main"><a href="https://visapp.scitevents.org/">VISAPP 2025</a></span>'
   badge: ""
   thumb: "/images/framework.png"
   links:
@@ -44,7 +44,7 @@
 - id: dualvxm25
   title: "Dual-VXM: A Prior-Aware Dual-Encoder UNet for Watch-and-Wait Monitoring with Low-Field MRI"
   authors: "Mohammad Javadi, Panagiotis Tsiamyrtzis, **Carter Ung**, Ernst Leiss, Andrew Webb, Nikolaos Tsekos"
-  venue: "Under Review"
+  venue: '<span class="venue-status">Under Review</span>'
   badge: ""
   thumb: "/images/dual-vxm.gif"
   teaser: |
