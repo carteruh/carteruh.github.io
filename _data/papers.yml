@@ -42,13 +42,13 @@
 
 # ---  Under Review  ----------------------------------------------------------
 - id: dualvxm25
-  title: "Dual-VXM: A Prior-Aware Dual-Encoder UNet for Watch-and-Wait Monitoring with Low-Field MRI"
-  authors: "Mohammad Javadi, Panagiotis Tsiamyrtzis, **Carter Ung**, Ernst Leiss, Andrew Webb, Nikolaos Tsekos"
+  title: "Monitoring of Tumor Evolution with Low-Field MRI Enhanced via Priors-Aware Deformation Modeling: The Paradigm of Low-grade Gliomas Watch-and-Wait"
+  authors: "Mohammad Javadi, **Carter Ung**, Panagiotis Tsiamyrtzis, Ernst Leiss, Andrew G. Webb, Nikolaos V. Tsekos"
   venue: '<span class="venue-status">Under Review</span>'
   badge: ""
   thumb: "/images/dual-vxm.gif"
   teaser: |
-    We present a novel dual-encoder UNet architecture that leverages prior high-field MRI scans to enhance low-field MRI image quality for improved monitoring of Low-Grade Gliomas (LGG).
+    We monitor longitudinal tumor evolution in low-field MRI through priors-aware deformation modeling, enabling an accessible watch-and-wait paradigm for Low-Grade Gliomas (LGG).
 
 # ---  Undergraduate thesis  -------------------------------------------------
 - id: ug_thesis_pose
