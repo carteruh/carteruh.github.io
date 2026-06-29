@@ -12,7 +12,7 @@ redirect_from:
 <div class="profile-header">
   <div class="profile-header__text">
     <h1 class="profile-header__name">Carter Ung</h1>
-    <p class="profile-header__title">Incoming CS PhD at Johns Hopkins &middot; Embodied AI &amp; Robotics at University of Washington</p>
+    <p class="profile-header__title">Incoming CS PhD at Johns Hopkins &middot; Embodied AI &amp; Robotics at Ai2</p>
     <div class="profile-header__links">
       <a href="mailto:cung1@johnshopkins.edu"><i class="fas fa-fw fa-envelope"></i> Email</a>
       <a href="{{ site.author.CV }}"><i class="fas fa-fw fa-file-lines"></i> CV</a>
@@ -27,9 +27,9 @@ redirect_from:
   </div>
 </div>
 
-I am an incoming CS PhD student at **The Johns Hopkins University**, advised by <a href="https://homangab.github.io/">**Homanga Bharadhwaj**</a> (Research Scientist, <a href="https://tech.facebook.com/reality-labs/">Meta Reality Labs</a>) and <a href="https://www.cs.jhu.edu/hager/">**Greg Hager**</a> (Director, <a href="https://www.nsf.gov/cise/">NSF CISE</a> and <a href="https://www.amazon.science/robotics">Amazon Robotics</a>). I am currently a predoctoral researcher at the **University of Washington**, advised by <a href="https://homes.cs.washington.edu/~fox/">**Dieter Fox**</a> (Founding Director, <a href="https://research.nvidia.com/labs/srl/">Seattle NVIDIA Robotics Lab</a>) and <a href="https://goodrobot.ai/">**Siddhartha Srinivasa**</a> (Founding Director, <a href="https://www.amazon.science/robotics">Amazon Robotics AI</a>) in the **Robotics and State Estimation Lab** and **Personal Robotics Lab**. I am grateful to have my graduate research supported by the **NSF CISE Graduate Fellowship**.
+I am an incoming CS PhD student at **The Johns Hopkins University**, advised by <a href="https://homangab.github.io/">**Homanga Bharadhwaj**</a> (Research Scientist, <a href="https://tech.facebook.com/reality-labs/">Meta Reality Labs</a>) and <a href="https://www.cs.jhu.edu/hager/">**Greg Hager**</a> (Director, <a href="https://www.nsf.gov/cise/">NSF CISE</a> and <a href="https://www.amazon.science/robotics">Amazon Robotics</a>). I am currently at the <a href="https://allenai.org/">**Allen Institute for AI (Ai2)**</a> with the **Robotics** team and am jointly advised at the **University of Washington** under <a href="https://homes.cs.washington.edu/~fox/">**Dieter Fox**</a> (Founding Director, <a href="https://research.nvidia.com/labs/srl/">Seattle NVIDIA Robotics Lab</a>) and <a href="https://goodrobot.ai/">**Siddhartha Srinivasa**</a> (Founding Director, <a href="https://www.amazon.science/robotics">Amazon Robotics AI</a>) in the **Robotics and State Estimation Lab** and **Personal Robotics Lab**. I am grateful to have my graduate research supported by the **NSF CISE Graduate Fellowship**.
 
-I also work as a software engineer at **Microsoft**, building **Copilot** into **OneNote**. Previously, I studied **Computer Science** and **Biomedical Engineering** at the **University of Houston**, where I spent over two years with **Dr. Shishir Shah** on pose-invariant face recognition (VISAPP 2025).
+Previously, I studied **Computer Science** and **Biomedical Engineering** at the **University of Houston**, where I spent over two years with <a href="https://www.ou.edu/coe/cs/people/faculty/shishir-shah">**Dr. Shishir Shah**</a> on pose-invariant face recognition (VISAPP 2025). I also worked as a software engineer at **Microsoft**, building **Copilot** into **OneNote**.
 
 ---
 
@@ -61,17 +61,17 @@ I've come across many kind people in my curious journey toward academia and indu
     <span class="people-role">Director, NSF CISE & Amazon Robotics</span>
   </a>
   <a href="https://homes.cs.washington.edu/~fox/" class="people-card" data-aos="fade-up" data-aos-delay="200">
-    <img src="/images/advisor_fox.jpg" alt="Dieter Fox">
+    <img src="/images/dieter_pic.jpg" alt="Dieter Fox">
     <span class="people-name">Dieter Fox</span>
     <span class="people-role">Founding Director, Seattle NVIDIA Robotics Lab</span>
   </a>
   <a href="https://goodrobot.ai/" class="people-card" data-aos="fade-up" data-aos-delay="300">
-    <img src="/images/advisor_srinivasa.jpg" alt="Siddhartha Srinivasa">
+    <img src="/images/sidd_profile.png" alt="Siddhartha Srinivasa" style="object-position: center 30%;">
     <span class="people-name">Siddhartha Srinivasa</span>
     <span class="people-role">Founding Director, Amazon Robotics AI</span>
   </a>
   <a href="https://www.ou.edu/coe/cs/people/faculty/shishir-shah" class="people-card" data-aos="fade-up" data-aos-delay="400">
-    <img src="/images/advisor_shah.jpg" alt="Shishir Shah" style="object-position: center 30%;">
+    <img src="/images/advisor_shah.jpg" alt="Shishir Shah" style="object-position: center 30%; width: 100%; height: 300px; object-fit: cover; object-position: top;" >
     <span class="people-name">Shishir Shah</span>
     <span class="people-role">Chief AI Officer, University of Oklahoma</span>
   </a>
